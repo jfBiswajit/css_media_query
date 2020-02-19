@@ -2,11 +2,13 @@
 standard css media query break points.
 
 ```CSS
-@media  only screen and (min-width: 320px) and (max-width: 479px){}
+@media all and (max-width: 1690px) {}
 
-@media  only screen and (min-width: 480px) and (max-width: 767px){}
+@media all and (max-width: 1280px) {}
 
-@media  only screen and (min-width: 768px) and (max-width: 991px){}
+@media all and (max-width: 980px) {}
 
-@media  only screen and (min-width: 992px){}
+@media all and (max-width: 736px) {}
+
+@media all and (max-width: 480px) {}
 ```
